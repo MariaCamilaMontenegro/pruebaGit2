@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet href="../css/estilos.css" type="text/css" media=screen>
+   <!-- nombre del html -->
+    <title> Contacto - Super Humans </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+</head>
+  
+<body> 
+    <header> 
+        <div class="menu">
+            <!-- logo dirige al Home -->
+            <a href="../index.html">
+                <img class=logo src="../images/logo-super-humans-flat.png" alt="logo super humans">
+            </a>
+            
+            <!-- menu de navegacion -->
+            <nav>
+                <ul class="navegacion">
+                    <li> 
+                        <a href="../pages/manifesto.html"> Manifesto </a>
+                    </li>
+                    <li>
+                        <a href="../pages/nosotros.html" > Nosotros </a>
+                    </li>
+                    <li>
+                        <a href="../pages/shop.html"> Shop </a>
+                            <ul class="submenu">
+                                <li class="nav-item">
+                                <a class="nav-link Fisicas" href="#">Fisicas</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-auditivas" href="#"> Auditivas </a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-visuales" href="#">Visuales</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> Mentales </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li>
+                        <a href="../pages/contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+ 
+        <h3> Contacto </h3>
+    </header>
+    <main>
+        <h4> Todos tenemos diferentes formas para comunicarnos</h4>
+        <br>
+        <h5> Elige la tuya</h5>
+        <br>
+
+        <!-- formulario -->
+        <form class="Formulario">
+            <fieldset>
+                <legend> Comuniqu&eacutemonos </legend>
+                <br>
+                <div>
+                    <label for="Nombre"> Ingresa tu nombre </label>
+                    <input type="text" 
+                    name="Nombre"
+                    placeholder=" Nombre y Apellido"
+                    >
+                </div>
+                <br>
+                <div>
+                    <label for="Mail"> E-mail </label>
+                    <input type="email" required
+                    name="E-mail"
+                    placeholder="Correo electrónico">
+                    
+                </div>
+                <div>
+                    <label for="pais"> Selecciona tu pa&iacutes </label>
+                    <select name="pais"> 
+                        <option value="Argentina"> Argentina</option>
+                        <option value="Colombia"> Colombia </option>
+                        <option value="Francia"> Francia </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="SuperCapacidad"> Elige el medio de comunicaci&oacuten que prefieras </label> <br>
+              
+                    <input type="radio" name=SuperCapacidad value="Altavoz"> Altavoz <br>
+                    <input type="radio" name=SuperCapacidad value="Asesor virtual"> Asesor virtual <br>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear">
+                </div> 
+                <br>
+            </fieldset>
+            <br>
+        </form>
+        <br>
+    </main>
+    <!-- Inicio footer-->
+    <footer>
+
+        <h6> Todos los derechos reservados </h6>
+    </footer>
+</body>
+</html>
